@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="app">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <!-- to specifies the base URL for all relative URLs in a document -->
+  <!-- <base href="/"> -->
+  
+  <title data-ng-bind="title"></title>
+  
+  <!-- build:css assets/css/main.css -->
+  <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+  <!-- endbuild -->
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  
+  <div data-ng-include="'modules/layout/shell.view.html'"></div>
+
+  <!-- build:js assets/js/vendor.js -->
+  <!-- bower:js -->
+  <script src="assets/libs/angular/angular.js"></script>
+  <script src="assets/libs/angular-mocks/angular-mocks.js"></script>
+  <script src="assets/libs/angular-ui-router/release/angular-ui-router.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js assets/js/app.js -->
+  <script src="app.module.js"></script>
+  <!-- inject:js --> 
+  <script src="modules/core/core.config.js"></script>
+  <script src="modules/core/core.module.js"></script>
+  <script src="modules/core/core.route.js"></script>
+  <script src="modules/core/router.module.js"></script>
+  <script src="modules/core/router-helper.provider.js"></script>
+  <script src="modules/transaction-history/transaction-history.module.js"></script>
+  <script src="modules/transaction-history/transaction-history.route.js"></script>
+  <script src="modules/transaction-history/transaction-history.controller.js"></script>
+  <script src="modules/transaction-history/transaction-history.service.js"></script>
+  <!-- endinject -->
+  <!-- endbuild -->
+
+</body>
+</html>

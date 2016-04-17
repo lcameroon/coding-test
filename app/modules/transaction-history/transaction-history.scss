@@ -1,0 +1,27 @@
+/* transaction-history */
+.transaction-history {
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-top: 0;
+
+    .row {
+        border-bottom: 1px solid #ddd;
+    }
+}
+.transaction-history__title-text {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.transaction-history__balance {
+    text-align: right;
+}
+.transaction-history__search {
+    .form-label,
+    .input-group {
+        width: 100%;
+    }
+    .form-inline {
+        padding: 10px 15px 15px;
+    }
+}

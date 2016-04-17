@@ -1,0 +1,103 @@
+{
+    "date": "2016-04-16T13:04:56.006Z",
+    "currentBalance": 123213213,
+    "availableBalance": 123213312,
+    "transactions": [
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Lorem ipsum dolor sit amet",
+            "transaction": -12.3,
+            "balance": 1233.2
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Consectetur adipisicing elit",
+            "transaction": -1.23,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Cupiditate atque tempora placeat",
+            "transaction": -12.23,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Salary Dolores",
+            "transaction": 6232.33,
+            "balance": 6932.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Assumenda blanditiis",
+            "transaction": -123,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Quos recusandae",
+            "transaction": -123,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Quo cumque vitae iusto",
+            "transaction": -123,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Earum vel repellat in debitis quis ad officia",
+            "transaction": -123.11,
+            "balance": 1233.99
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Lorem ipsum dolor sit amet",
+            "transaction": -12.3,
+            "balance": 1233.2
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Consectetur adipisicing elit",
+            "transaction": -1.23,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Cupiditate atque tempora placeat",
+            "transaction": -12.23,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Salary Dolores",
+            "transaction": 6232.33,
+            "balance": 6932.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Assumenda blanditiis",
+            "transaction": -123,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Quos recusandae",
+            "transaction": -123,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Quo cumque vitae iusto",
+            "transaction": -123,
+            "balance": 123.32
+        },
+        {
+            "date": "2016-04-16T13:04:56.006Z",
+            "description": "Earum vel repellat in debitis quis ad officia",
+            "transaction": -123.11,
+            "balance": 1233.99
+        }
+    ]
+}

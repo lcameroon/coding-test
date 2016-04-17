@@ -1,0 +1,14 @@
+// Common Style
+body {
+    background: #eee;
+    padding-top: 70px;
+}
+.navbar {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
+}
+.navbar-logo {
+    display: inline-block;
+    padding-top: 7px;
+}
+// Modules Styles
+@import "modules/transaction-history/transaction-history";
