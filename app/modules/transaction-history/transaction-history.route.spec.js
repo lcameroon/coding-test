@@ -2,7 +2,7 @@ describe('TRANSACTION HISTORY MODULE', function() {
 
     describe('Transaction History Route', function () {
 
-        describe('state', function () {
+        describe('when state is \'transaction-history\'', function () {
             var controller;
             var view = 'modules/transaction-history/transaction-history.view.html';
 
@@ -22,15 +22,15 @@ describe('TRANSACTION HISTORY MODULE', function() {
                 });
             });
 
-            it('should map state demo to url /transaction-history ', function() {
+            it('the url should be #/transaction-history', function() {
                 expect($state.href('transaction-history', {})).toEqual('#/transaction-history');
             });
 
-            it('should map /transaction-history route to demo View template', function () {
+            it('should load the view', function () {
                 expect($state.get('transaction-history').templateUrl).toEqual(view);
             });
 
-            it('of transaction-history should work with $state.go', function () {
+            it('should work with $state.go', function () {
                 $state.go('transaction-history');
                 $rootScope.$apply();
                 expect($state.is('transaction-history')).toBe(true);
