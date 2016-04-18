@@ -15,12 +15,12 @@
     </div>
     <div class="transaction-history__search">
       <div class="row">
-        <form class="form-inline col-xs-12 col-sm-6">
+        <form class="form-inline col-xs-12 col-sm-6" ng-submit="vm.searchDescription()">
           <label class="form-label" for="search">Search for description</label>
           <div class="input-group">
             <input ng-model="vm.searchArg" type="text" class="form-control" placeholder="Search for...">
             <span class="input-group-btn">
-              <button ng-click="vm.searchDescription()" class="btn btn-primary" type="button">Search</button>
+              <button class="btn btn-primary" type="submit">Search</button>
             </span>
           </div>
         </form>
